@@ -35,5 +35,14 @@
     <ClInclude Include="Keylogger.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="Injector.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDownload.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

